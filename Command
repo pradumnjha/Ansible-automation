@@ -1,0 +1,6 @@
+# To list the host inside inventory file use command:
+
+[ansible@ansible-control ]$ ansible all -i inventory --list-hosts 
+  hosts (2): 
+    ansible-node1 
+    ansible-node2
